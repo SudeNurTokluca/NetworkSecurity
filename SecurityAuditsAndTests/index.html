@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Güvenlik Denetimleri ve Testleri - My Docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "G\u00fcvenlik Denetimleri ve Testleri";
+        var mkdocs_page_input_path = "SecurityAuditsAndTests.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> My Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Welcome to MkDocs</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Güvenlik Denetimleri ve Testleri</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ag-guvenligi-denetimlerinin-onemi">Ağ Güvenliği Denetimlerinin Önemi</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ag-guvenligi-denetimleri-nasl-gerceklestirilir">Ağ Güvenliği Denetimleri Nasıl Gerçekleştirilir?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ag-guvenligi-testi-cesitleri">Ağ Güvenliği Testi Çeşitleri</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ag-guvenligi-testlerinin-faydalar">Ağ Güvenliği Testlerinin Faydaları</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kaynaklar">Kaynaklar</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">My Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Güvenlik Denetimleri ve Testleri</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="guvenlik-denetimleri-ve-testleri">Güvenlik Denetimleri ve Testleri</h1>
+<p>Güvenlik denetimleri ve testleri, bilgi sistemlerinin, ağların ve uygulamaların güvenliğini değerlendirmek ve zayıflıkları tespit etmek amacıyla yapılan süreçlerdir. Bu işlem, bir organizasyonun bilgi varlıklarını korumasına ve olası güvenlik tehditlerine karşı hazırlıklı olmasına yardımcı olur.</p>
+<p>Ağ güvenliği denetimleri, bir organizasyonun bilgi sistemlerini ve ağ altyapısının güvenliğini değerlendirmek, zayıflıkları tespit etmek ve düzeltici önlemleri almak amacıyla kritik bir süreçtir. </p>
+<h2 id="ag-guvenligi-denetimlerinin-onemi"><strong>Ağ Güvenliği Denetimlerinin Önemi</strong></h2>
+<p>Bilişim ağlarının kurumun gerekliliğine uygun olarak sağlıklı bir şekilde çalışıp çalışmadığını tespit etmek amacı ile bir takım ağ denetimleri yapılmaktadır. Bir güvenlik denetimi, bir kurumun bilgi sisteminin güvenliğinin, belirli kriterlere ne kadar uyup uymadığını ölçerek değerlendirilmektedir. </p>
+<p>Ağ güvenliği denetimleri, ağ altyapısındaki güvenlik zafiyetlerini belirleyerek, bu zayıflıkların potansiyel saldırılara açık birer nokta olmasını engeller. Benzer şekilde ağ güvenliği denetimleri, organizasyonun güvenlik risklerini değerlendirir. Bu, yöneticilere uygun güvenlik politikalarını oluşturmak ve uygulamak için bilgi sağlar. Güvenlik denetimleri, ağ hizmetlerinin sürekliliğini sağlamak ve olası saldırılara karşı hazırlıklı olmak için alınan önlemleri değerlendirir.</p>
+<p>Birçok sektörde, organizasyonlar belirli güvenlik standartlarına ve düzenlemelere uymak zorundadır. Ağ güvenliği denetimleri aynı zamanda bu uyumluluk gereksinimlerini kontrol eder.</p>
+<p>Ağ güvenliği denetimleri, kötü niyetli faaliyetleri ve izinsiz erişim girişimlerini tespit etmek ve engellemek için kullanılabilir.</p>
+<h2 id="ag-guvenligi-denetimleri-nasl-gerceklestirilir"><strong>Ağ Güvenliği Denetimleri Nasıl Gerçekleştirilir?</strong></h2>
+<p>Ağ güvenliği denetimleri, bir kuruluşun bilgi sistemlerinin ve ağ altyapısının güvenliğini değerlendirmek amacıyla gerçekleştirilen kontrollerdir. Bu denetimler, potansiyel zayıflıkları tespit etmek, güvenlik politikalarının ve prosedürlerinin etkinliğini değerlendirmek, mevcut güvenlik önlemlerini test etmek ve güvenlik açıklarını belirlemek için kullanılır. Ağ güvenliği denetimleri çeşitli testler ile gerçekleştirilir. Kullanılan denetim yöntemleri ve testler şu şekildedir:</p>
+<p>•   <strong>Fiziksel Erişim Denetimi</strong>
+Fiziksel erişim denetimi, bir kuruluşun bilgisayar sistemleri ve ağ altyapısına fiziksel olarak erişimi kontrol altına almayı amaçlar. Binalara yetkisiz erişimi engelleyerek bilgisayar sistemlerini korumak ve sunucu odaları, veri merkezleri, ağ cihazları gibi kritik ekipmanların fiziksel erişimine kısıtlamak fiziksel erişim denetiminin kullanımına örnek olarak verilebilir.</p>
+<p>•   <strong>Mantıksal Erişim Denetimi</strong>
+Mantıksal erişim denetimi, kullanıcıların bilgisayar sistemlerine ve ağlara mantıksal (yazılımsal) olarak erişimini kontrol eder. Her kullanıcının sistemdeki belirli kaynaklara erişme yetkisinin kontrol edilmesi ve verilerin şifrelenerek, yetkisiz erişime karşı korunması mantıksal erişim denetiminin kullanımına örnek olarak verilebilir.</p>
+<p>•   <strong>İşlemsel Denetimler</strong>
+İşlemsel denetim, bir kuruluşun güvenlik politikalarının, prosedürlerinin ve teknik kontrollerinin günlük operasyonlarda nasıl uygulandığını ve etkin bir şekilde çalışıp çalışmadığını değerlendiren bir denetim türüdür. İşlemsel denetim, ağ güvenliğindeki günlük işlemleri inceleyerek güvenlik açıklarını tespit etmeye ve düzeltici önlemleri önermeye odaklanır.</p>
+<p>•   <strong>Veri İletim Koruması</strong>
+Ağ güvenliğinde veri iletim koruması, bilgilerin bir noktadan diğerine aktarılırken, saklanırken veya işlenirken güvenliğini sağlamak için uygulanan bir dizi önlemi temsil eder. Bu önlemler, bilgilerin yetkisiz kişiler tarafından erişilmesini, değiştirilmesini veya kötü niyetli bir şekilde kullanılmasını önlemeyi amaçlar.</p>
+<p>•   <strong>Eğitim ve Farkındalık</strong>
+Personelin güvenlik bilinci, sosyal mühendislik saldırılarına karşı direncini artırmak için düzenli olarak eğitilmelidir.</p>
+<p>•   <strong>Organizasyonel Denetimler</strong></p>
+<p>•   <strong>Penetrasyon Testleri</strong></p>
+<p>•   <strong>Uyumluluk Testi</strong></p>
+<p>•   <strong>Güvenlik Duvarı ve Ağ Cihazları Denetimleri</strong></p>
+<p>•   <strong>Zararlı Yazılım Analizi</strong></p>
+<p>•   <strong>Güvenlik Politikalarının İncelenmesi</strong></p>
+<p>•   <strong>Güvenlik Olayı İncelenmesi</strong></p>
+<p>•   <strong>Yedekleme ve Kurtarma Planlarının Test Edilmesi</strong></p>
+<p>•   <strong>Sosyal Mühendislik Testleri</strong></p>
+<p>Bu adımlar, ağ güvenliği denetimlerini gerçekleştirmek ve ağ altyapısının güvenliğini sürdürmek için temel yönergeleri sağlar. Bu denetimlerin düzenli olarak yapılması, organizasyonun güvenlik seviyesini artırabilir ve olası güvenlik tehditlerine karşı daha hazır olmasını sağlayabilir.</p>
+<h2 id="ag-guvenligi-testi-cesitleri"><strong>Ağ Güvenliği Testi Çeşitleri</strong></h2>
+<p>Ağ güvenliği testleri, potansiyel güvenlik açıklarının belirlenmesi ve güvenlik standartlarına uygunluğun sağlanması açısından önemlidir. Hedeflerinize, kapsamınıza ve ayrıntı düzeyinize bağlı olarak çeşitli test yöntemleri arasından seçim yapılabilir. 
+Güvenlik açığı taraması, Nmap, Nessus veya OpenVAS gibi araçları kullanarak ağ cihazlarınızdaki ve hizmetlerinizdeki bilinen zayıflıkları bulmaya yönelik otomatik bir işlemdir. Sızma testi, Uyumluluk testi, CIS Benchmarks, NIST SP 800-53 veya PCI DSS gibi araçlarla ağınızın belirli güvenlik standartlarının veya düzenlemelerinin gereksinimlerini karşılayıp karşılamadığını doğrulamanın özel bir yoludur. 
+Test çeşitleri şu şekildedir:</p>
+<ol>
+<li>
+<p><strong>Penetrasyon Testleri:</strong>
+Ağa yönelik saldırıları simüle eden bu testler, güvenlik zafiyetlerini tespit etmek ve düzeltici önlemler almak amacıyla yapılır. Hassas verilere erişim sağlamak için Metasploit, Burp Suite veya Wireshark gibi araçları kullanan daha kapsamlı bir yaklaşımdır. Zayıflıkları belirlemek, saldırılara karşı savunma geliştirmek, potansiyel güvenlik risklerini azaltmak gibi faydalar sağlar.</p>
+<ul>
+<li>
+<p><strong>Siyanobeniz (Black Box) Testi:</strong> Saldırganın sistemin iç yapısını bilmediği bir senaryoyu taklit eder. Bilgiye sınırlı erişimle başlayarak, saldırganın nasıl bir bilgiye erişebildiğini ve hangi seviyede zarar verebildiğini test eder.</p>
+</li>
+<li>
+<p><strong>Beyaz Kutu (White Box) Testi:</strong> Saldırgan sistemin detaylı iç yapısını bilmektedir. Bu testte, test ekibi sistemdeki zafiyetleri daha etkili bir şekilde tespit edebilir çünkü sistemin iç çalışma prensiplerini bilinmektedir.</p>
+</li>
+<li>
+<p><strong>Gri Kutu (Gray Box) Testi:</strong> Bu test, siyah kutu ve beyaz kutu testlerinin bir kombinasyonudur. Test ekibi, kısmi bir bilgi setine sahiptir ve bu bilgilerle birlikte testi gerçekleştirir.</p>
+</li>
+<li>
+<p><strong>Uygulama Güvenliği Testi:</strong> Web uygulamaları, mobil uygulamalar ve diğer yazılım uygulamalarının ağ güvenlik açıklarını belirlemek amacıyla gerçekleştirilir.</p>
+</li>
+<li>
+<p><strong>Denial of Service (DoS) Testi:</strong> Hizmet reddi saldırılarını simüle eder ve sistemlerin, ağların veya uygulamaların nasıl tepki vereceğini değerlendirir.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Uyumluluk Testi (Compliance Testing):</strong> Bir ağın belirli güvenlik standartlarına veya düzenlemelerine uygun olup olmadığını doğrulamak için yapılan bir güvenlik testidir. Uyumluluk testleri, organizasyonların belirli bir endüstri veya düzenleme çerçevesinde bilgi güvenliği risklerini azaltmalarına yardımcı olur. Bu testler, ağ güvenliği açısından belirli bir standart veya düzenlemeye uygunluğu değerlendirerek, potansiyel güvenlik zayıflıklarını ve uyumsuzlukları belirlemeye yöneliktir. Organizasyonlar, uyumluluk testi sonuçlarına dayanarak gerekli düzeltici eylemleri alarak güvenlik durumlarını güçlendirebilirler.</p>
+<p>Uyumluluk testi, CIS Benchmarks, NIST SP 800-53 veya PCI DSS gibi araçlarla ağınızın belirli güvenlik standartlarının veya düzenlemelerinin gereksinimlerini karşılayıp karşılamadığını doğrulamanın özel bir yoludur.</p>
+<p>Uyumluluk testinin temel unsurları şu şekildedir:</p>
+<ul>
+<li>
+<p><strong>Belirli Standart ve Düzenlemelere Uyumluluk:</strong> Uyumluluk testleri, belirli endüstri standartlarına veya düzenlemelere uygunluğu kontrol eder. Örneğin, PCI DSS, HIPAA, ISO 27001 gibi standartlar veya düzenlemelere uyum kontrol edilebilir.</p>
+</li>
+<li>
+<p><strong>CIS Benchmarks ve NIST SP 800-53:</strong> Uyumluluk testlerinde genellikle CIS (Center for Internet Security) Benchmarks ve NIST (National Institute of Standards and Technology) SP 800-53 gibi güvenlik standartları ve rehberlik dokümanları kullanılır. Bu dokümanlar, organizasyonların bilgi güvenliği politikalarını, ağ konfigürasyonlarını ve güvenlik kontrollerini değerlendirmek için bir çerçeve sunar.</p>
+</li>
+<li>
+<p><strong>Ağ Altyapısı Kontrolleri:</strong> Ağın fiziksel ve mantıksal yapıları, güvenlik cihazları ve ağ protokollerinin uyumluluğu kontrol edilir. Ağ cihazlarının güvenlik konfigürasyonları, güvenlik duvarları ve güvenlik önlemleri bu kapsamda incelenir.</p>
+</li>
+<li>
+<p><strong>Güvenlik Politikaları ve İlgili Dokümantasyonlar:</strong> Organizasyonun güvenlik politikaları ve ilgili dokümantasyonları, belirli standartlara uyum açısından gözden geçirilir. Bu, yazılı güvenlik politikaları, iş sürekliliği planları, acil durum planları ve diğer dokümantasyonları içerir.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Zararlı Yazılım Analizi:</strong>
+Ağ üzerindeki cihazları, uygulamaları ve e-posta trafiğini zararlı yazılıma karşı tarayarak tehditler tespit edilir ve bu tür tehditlere karşı koruma düzeyi değerlendirilir. Zararlı yazılımları tespit etmeyi ve ağa bulaşmış sistemleri izole etmeyi sağlar.</p>
+</li>
+<li>
+<p><strong>Denetim Günlüğü İncelemeleri:</strong>
+Ağ üzerindeki güvenlik olay günlüklerini ve denetim kayıtlarını inceleyerek anormal faaliyetleri tespit etmek için kullanılan yöntemdir. Potansiyel güvenlik ihlallerini tespit etmek, saldırılara karşı daha hızlı tepki verebilmek için kullanılır.</p>
+</li>
+<li>
+<p><strong>Güvenlik Duvarı ve Ağ Cihazları Denetimleri:</strong>
+Organizasyonun ağ trafiğini kontrol etmek için kullanılan güvenlik duvarlarının ve diğer ağ cihazlarının yapılandırması ve etkinliğini değerlendirilir. İzinsiz erişimleri engellemek, ağ trafiğini kontrol etmek, güvenlik politikalarına uygunluğu sağlamak için kullanılır.</p>
+</li>
+<li>
+<p><strong>Sosyal Mühendislik Testleri:</strong>
+Saldırganların insanları manipüle etme ve hassas bilgileri elde etme yöntemlerini test eder. Personelin güvenlik bilincini artırmak, sosyal mühendislik saldırılarına karşı direnci güçlendirmek için kullanılır.</p>
+</li>
+<li>
+<p><strong>Güvenlik Politikalarının İncelenmesi:</strong>
+Organizasyonun ağ güvenliği politikaları ve prosedürleri gözden geçirilir ve bu politikaların etkinliği değerlendirilir.</p>
+</li>
+<li>
+<p><strong>Yedekleme ve Kurtarma Planlarının Test Edilmesi:</strong>
+ Ağ üzerindeki verilerin düzenli yedeklemeleri ve kurtarma planlarının test edilmesi, veri kaybını önlemek ve hizmet sürekliliğini sağlamak için önemlidir.</p>
+</li>
+</ol>
+<h2 id="ag-guvenligi-testlerinin-faydalar"><strong>Ağ Güvenliği Testlerinin Faydaları</strong></h2>
+<p>Ağ güvenliği testleri, organizasyonların bilgi sistemlerini ve ağ altyapısını güvende tutmalarına yardımcı olan kritik bir güvenlik önlemidir. Bu testlerin düzenli olarak gerçekleştirilmesi, güvenlik seviyesini artırır ve olası güvenlik tehditlerine karşı daha etkili bir savunma sağlar.</p>
+<ul>
+<li>
+<p>Testler, ağdaki potansiyel güvenlik zafiyetlerini tespit ederek bu zayıflıkları kapatma imkânı sağlar. </p>
+</li>
+<li>
+<p>Organizasyonun maruz kaldığı güvenlik risklerini değerlendirir ve bu risklere karşı uygun önlemleri almayı sağlar.</p>
+</li>
+<li>
+<p>Belirli güvenlik standartlarına ve düzenlemelere uyum sağlamak adına gereken kontrolleri değerlendirir.</p>
+</li>
+<li>
+<p>Potansiyel saldırı senaryolarını simüle ederek, organizasyonu gerçek bir saldırıya karşı hazırlıklı kılar.</p>
+</li>
+<li>
+<p>Çalışanların ve yöneticilerin güvenlik bilincini artırmak adına eğitim ve farkındalık sağlar.</p>
+</li>
+<li>
+<p>Test sonuçları, sürekli iyileştirme süreçlerini destekleyerek ağ güvenliğini güncel tutmaya yardımcı olur.</p>
+</li>
+</ul>
+<h2 id="kaynaklar">Kaynaklar</h2>
+<ul>
+<li>
+<p>https://dergipark.org.tr/tr/download/article-file/193108</p>
+</li>
+<li>
+<p>https://dergipark.org.tr/en/download/article-file/212919</p>
+</li>
+<li>
+<p>https://www.getastra.com/blog/security-audit/network-security-testing/</p>
+</li>
+<li>
+<p>https://www.cybermagonline.com/ag-guvenligi-temelleri</p>
+</li>
+<li>
+<p>https://www.linkedin.com/advice/0/how-do-you-test-network-security-skills-system-administration</p>
+</li>
+<li>
+<p>https://www.orientsoftware.com/blog/network-security-testing/</p>
+</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Welcome to MkDocs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
